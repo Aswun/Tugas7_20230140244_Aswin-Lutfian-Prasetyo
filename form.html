@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html" class="button">Back</a>
+    <center>
+        <h1>Formulir Biodata</h1>
+        <form>
+            <fieldset class="sat">
+                <legend style="font-family: 'Lobster Two', cursive; font-size: 24px;">Formulir Biodata</legend>
+
+                <p>Nama: <br><input type="text" name="nama" required></p>
+                <p>Alamat: <br><input type="number" name="umur" required></p>
+                <p>
+                    Jenis Kelamin:<br>
+                    <input type="radio" name="jk" value="laki-laki" checked> Laki-laki
+                    <input type="radio" name="jk" value="perempuan"> Perempuan
+                </p>
+
+                <p>
+                    Hobi yang Diminati:<br>
+                    <input type="checkbox" name="Membaca"> Membaca
+                    <input type="checkbox" name="Tidur"> Tidur
+                </p>
+
+                <p>
+                    Kota Asal:<br>
+                    <select name="kota">
+                        <option>Yogyakarta</option>
+                        <option>Palangka Raya</option>
+                        <option>Jakarta</option>
+                        <option>Klaten</option>
+                    </select>
+                </p>
+
+                <p>
+                    Tambahan informasi lainnya:<br>
+                    <textarea rows="10" cols="60" placeholder="Tulis jawaban Anda di sini"></textarea>
+                </p>
+
+                <p><input type="submit" value="Submit" class="button" style="background-color: #3f706b;"></p>
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>
